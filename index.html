@@ -9,6 +9,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="мода, модельное агенство, кастинг">
+    <meta name="description" content="Программа подготовки моделей специально адаптированная под женщин и мужчин старше 23 лет. Почувствовать себя моделью может каждая! Подробнее.">
+
+    <link rel="icon" type="image/ico" sizes="32x32" href="icons/icon1.ico">
+<link rel="icon" type="image/ico" sizes="16x16" href="icons/icon1.ico">
+<link rel="shortcut icon" href="icons/icon1.ico">
+
+<meta property="og:title" content="ICON">
+<meta property="og:site_name" content="Модельное агенство ICON">
+<meta property="og:url" content="https://ilona2404.github.io/first-project/">
+<meta property="og:description" content="Школа от международного модельного агентства ICON. Хочешь раскрепоститься? Готов работать над собой? Наша школа - это отличная возможность ...">
+<meta property="og:image" content="https://ilona2404.github.io/first-project/img/modesit2.jpg">
+
+<meta name="theme-color" content="#f0adb1" />
+<meta name="msapplication-navbutton-color" content="#4285f4" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+<meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
 </head>
 <body>
 <header>
@@ -74,11 +92,19 @@
         </div>
         <div class="from_item"></div>
             <label for="mail">E-mail</label><br>
-            <input id="mail" name="mail" type="text" placeholder="E-mail" required><br>
+            <input id="mail" name="mail" type="email" placeholder="E-mail" required><br>
         </div>
-        <div class="from_item"></div>
+        <div class="phone"></div>
+            <label for="phone">Номер телефона</label><br>
+            <input id="phone" name="phone" type="tel" placeholder="Номер телефона" required><br>
+        </div>
+        <div class="phone"></div>
+            <label for="date">Дата рождения</label><br>
+            <input id="date" name="date" type="date" placeholder="Дата рождения" required><br>
+        </div>
+        <div class="from_text"></div>
             <label for="textarea">Текст сообщения</label><br>
-        <textarea id="textarea" rows="5"></textarea>
+        <textarea id="textarea" rows="5" required></textarea>
         </div>
         <div class="from_item"></div>
             <input type="submit" value="Отправить">

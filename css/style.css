@@ -212,7 +212,7 @@ p::first-line {
     letter-spacing: 5px;
 }
 #form {
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(113, 110, 253);
     padding: 10px 50px;
     text-align: left;
     border-top: 2px solid black;
@@ -224,7 +224,62 @@ p::first-line {
     margin-bottom: 10px;
     border: #fdffff83;
     background-color: aliceblue;
+    color: rgb(113, 110, 253);
 }
 #contact-form input[type="submit"] {
     font-size: 1,8em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 110, 253);
+    border: #fdffff83;
+    background-color: rgb(210, 191, 223);
+    padding: 5px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#topic {
+    font-size: 1,8em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 110, 253);
+    border: #fdffff83;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 260px;
+    height: 30px;
+}
+#contact-form input[type="tel"] {
+    font-size: 1,8em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 110, 253);
+    border: #fdffff83;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 250px;
+    height: 20px;
+}
+#contact-form input[type="date"] {
+    font-size: 1,8em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 110, 253);
+    border: #fdffff83;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 250px;
+    height: 20px;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: rgb(252, 252, 252);  
+}
+#textarea {
+    width: 260px;
+    height: 150px;
+}
+#contact-form input[type="email"] {
+    font-size: 1,8em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 110, 253);
+    border: #fdffff83;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 250px;
+    height: 20px;
 }
